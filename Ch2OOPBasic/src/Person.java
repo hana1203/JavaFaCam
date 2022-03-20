@@ -29,11 +29,11 @@ public class Person {
         //그 이전에 int num = 10; 이런 식으로 쓸 수 없다.
         // 밑의 생성자 호출이 끝나야 인스턴스 생성이 끝난다. 인스턴스 생성되기 이전에 다른 코드를 넣으면 오류가 나는것.
     }
-//    default constructor
-//    데이터 하나도 안들어온 생성자를 만드는데 아무런 값이 없으니 초기화를 시켜주고 싶다
+//    default constructor 데이터 하나도 안들어온 생성자를 만드는데 아무런 값이 없으니 초기화를 시켜주고 싶다
 //    this.name = "name 블라블라";
-//    this.age = 1; 이런 식으로 초기화를 하려고하니 아래 생성자에 그 코드 그대로있음.
-//    생성자에서 다른 생성자를 그대로 불러서 멤버변수 셋팅하는 일을 한다
+//    this.age = 1;
+//    이런 식으로 초기화를 하려고하니 아래 생성자에 그 코드 그대로있음.
+//    this 가 생성자 안에서 다른 생성자를 그대로 불러서 멤버변수 셋팅하는 일을 한다.
 
     public Person(String name, int age) {
         // case3.자기자신의 address 를 나타내는 this
@@ -45,7 +45,7 @@ public class Person {
         System.out.println(name+" is " + age + "years old.");
     }
 
-    public Person getPerson() { //getPerson() 메소드 만들고 반환 타입은 자기자신 Person
+    public Person getPerson() { //getPerson() 메소드 만들고 반환 타입은 자기자신 Person 클래스
         // case3.자기자신의 주소를 반환하는 this
         return this;
     }

@@ -30,7 +30,7 @@ public class Nation { //국민을 객체로 만들어봄
     public static int getNationNum() {
         //메서드가 static 이고 반환값 int이다.
         int i = 0; //지역변수
-//        nationalName = "Soo"; //인스턴스 변수는 못씀. static 메서드 내부에서는 인스턴스 변수 사용 불가
+//        nationalName = "Soo"; //인스턴스 변수(=클래스 안에 있는 멤버변수)는 못씀. static 메서드 내부에서는 인스턴스 변수 사용 불가
         //getNationNum() 메소드 불려질 시점에 인스턴스 nationalName 없을 수 도있음. 인스턴스가 생성되지 않은 상태에서 가져다가 못씀.
         //메소드 호출되었을때 수행되려면 메소드 안에있는 요소들은 다 메모리를 가지고 있어야 된다.
         return nationNum;  //static 변수
