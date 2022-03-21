@@ -3,8 +3,10 @@ public class CarFactoryTest {
         CarFactory factory = CarFactory.getInstance();
         Car bmw = factory.createCar();
         Car mini = factory.createCar();
-        System.out.println(bmw.getCarNum());
-        System.out.println(mini.getCarNum());
+        Car genesis = factory.createCar();
+        System.out.println(bmw.getCarNum()); //10001
+        System.out.println(mini.getCarNum()); //10002
+        System.out.println(genesis.getCarNum()); //10003
 
     }
 }
