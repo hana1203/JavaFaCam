@@ -1,8 +1,8 @@
-package Array;
+package array;
 
 public class Subject {
-    String title;
-    int score;
+    private String title;
+    private int score;
 
     public Subject(String title, int score) {
         this.title = title;

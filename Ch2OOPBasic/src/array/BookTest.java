@@ -1,9 +1,9 @@
-package Array;
+package array;
 
 //책을 가지고있는 배열만들기
 public class BookTest {
     public static void main(String[] args) {
-//        Array.Book library = new Array.Book(); //원래 클래스 불러올때 이렇게 인스턴스 생성해야됨.
+//        array.Book library = new array.Book(); //원래 클래스 불러올때 이렇게 인스턴스 생성해야됨.
 //        그치만 객체 배열의 경우 이렇게 생성한다.
 
         Book[] library = new Book[5];
@@ -23,18 +23,18 @@ public class BookTest {
         library[4] = new Book("Harry Potter 5", "JK Rowling");
 
         for (Book book:library) {
-            System.out.println(book); //Array.Book 자체 address 출력
+            System.out.println(book); //array.Book 자체 address 출력
             book.showBookInfo(); //객체 만들어짐.
         }
-//        Array.Book@36baf30c
+//        array.Book@36baf30c
 //        Harry Potter 1,JK Rowling
-//        Array.Book@279f2327
+//        array.Book@279f2327
 //        Harry Potter 2,JK Rowling
-//        Array.Book@2ff4acd0
+//        array.Book@2ff4acd0
 //        Harry Potter 3,JK Rowling
-//        Array.Book@54bedef2
+//        array.Book@54bedef2
 //        Harry Potter 4,JK Rowling
-//        Array.Book@5caf905d
+//        array.Book@5caf905d
 //        Harry Potter 5,JK Rowling
 
 //        객체 배열 사용시 주의사항

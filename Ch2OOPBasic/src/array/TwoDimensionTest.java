@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 //Ch2-22. 2차원 배열
 public class TwoDimensionTest {

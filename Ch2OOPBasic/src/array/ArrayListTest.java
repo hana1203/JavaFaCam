@@ -1,6 +1,6 @@
 //Ch2-23. 객체 배열을 구현한 클래스 ArrayList
 //ArrayList 객체 배열을 좀더 효율적으로 관리하기 위해 자바에서 제공해 주는 클래스
-package Array;
+package array;
 
 import java.util.ArrayList;
 public class ArrayListTest {

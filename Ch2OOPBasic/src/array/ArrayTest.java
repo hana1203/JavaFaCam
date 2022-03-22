@@ -1,6 +1,6 @@
-package Array;
+package array;
 
-//Ch2-20 배열 Array
+//Ch2-20 배열 array
 public class ArrayTest {
 
     public static void main(String[] args) {

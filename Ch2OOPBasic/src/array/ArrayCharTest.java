@@ -1,4 +1,4 @@
-package Array;
+package array;
 
 //문자 배열
 public class ArrayCharTest {

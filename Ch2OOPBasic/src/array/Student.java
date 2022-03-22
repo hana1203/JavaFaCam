@@ -1,5 +1,4 @@
-package Array;
-import java.lang.reflect.Array;
+package array;
 import java.util.ArrayList;
 
 public class Student {
@@ -15,7 +14,6 @@ public class Student {
 
     public void addSubject(String title, int score){
         subjects.add(new Subject(title, score));
-
     }
 
     public void showStudentInfo() {
@@ -25,8 +23,12 @@ public class Student {
                     subjects.get(i).getScore() + "점 입니다.");
             total += subjects.get(i).getScore();
         }
-        System.out.println(name + " 학생의" + "총점은 " + total + " 점 입니다.");
+        System.out.println(name + " 학생의" + " 총점은 " + total + " 점 입니다.");
 
-
+//        //enhanced for 으로도 가능
+//        for (Subject s:subjects) {
+//            System.out.println(name + " 학생의 " + s.getTitle() + " 과목 성적은 " +
+//                     s.getScore()+ "점 입니다.");
+//        }
     }
 }

@@ -1,5 +1,6 @@
-package Array;
+package array;
 
+//객체배열 복사하기
 public class BookObjectCopy {
 
     public static void main(String[] args) {
@@ -40,8 +41,8 @@ public class BookObjectCopy {
         library[0].setAuthor("박완서");
         library[0].setTitle("닭");
 
-        System.out.println("==library==");
         //기존 원래 배열
+        System.out.println("==library==");
         for (Book book : library) {
             System.out.println(book);
             book.showBookInfo();

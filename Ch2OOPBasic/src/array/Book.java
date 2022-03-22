@@ -1,6 +1,6 @@
-package Array;
+package array;
 
-//객체 배열
+//Ch2-21. 객체 배열 사용하기
 public class Book {
 
     private String title;
