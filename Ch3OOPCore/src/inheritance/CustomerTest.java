@@ -10,7 +10,9 @@ public class CustomerTest {
 
         CustomerVIP taylor = new CustomerVIP();
         taylor.setCustomerName("테일러");
-//        taylor.bonusPoint(1000); 에러
+//        taylor.point(1000); //에러 Customer클래스의 default 멤버변수인데 왜 상속 클래스에서 쓰면 에러???
+        //변수니까 메소드가 아닌 변수로 저장해줘야됨
+        taylor.point = 1000;
         taylor.calcPrice(50000);
         System.out.println(taylor.showCustomerInfo());
     }
