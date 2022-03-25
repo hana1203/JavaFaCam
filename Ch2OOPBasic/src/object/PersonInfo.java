@@ -1,3 +1,5 @@
+package object;
+
 public class PersonInfo {
 
     public String name;

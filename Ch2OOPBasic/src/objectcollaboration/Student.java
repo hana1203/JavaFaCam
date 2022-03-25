@@ -1,4 +1,4 @@
-// Ch2-09. 참조자료형 변수
+package objectcollaboration;// Ch2-09. 참조자료형 변수
 // 직접 클래스를 만들어서 그 아이를 멤버변수로 사용하고 싶을때
 // 객체이기때문에 그냥 변수를 선언하고 바로 쓸 수 없다. 생성하고 써야된다.
 // String은 예외 String은 primitive type 기본자료형 변수아니고 참조자료형이지만 생성자없이 가능.
@@ -9,7 +9,7 @@ public class Student {
     String studentName;
     StudentSubject potions;
     StudentSubject charms;
-    //StudentSubject 많아지면 배열로 쓸 수 있다.
+    //objectcollaboration.StudentSubject 많아지면 배열로 쓸 수 있다.
     //멤버변수의 참조자료형을 우리가 만든 것 가져다가 할 수 있다.
     //그런데 그냥 쓰는게 아니고 생성해서 써야된다.
     //참조자료형으로 분리하는게 좀더 각각 객체에 대한 역할, 기능을 분명하게 할 수 있다.

@@ -1,3 +1,5 @@
+package objectcollaboration;
+
 //Ch2-10. Access Modifier & Information Hiding  접근제어지시자 & 정보은닉
 public class Birthday {
     private int day;
@@ -10,7 +12,7 @@ public class Birthday {
 //private 으로 막고 get set 제공하는 것과 그냥 public 으로 놓는것(다 오픈하던가)은 무슨 차이?
     // int day;
     // int month;
-//실행하는 Driver 클래스 BirthdayTest 에서
+//실행하는 Driver 클래스 objectcollaboration.BirthdayTest 에서
     // bday.month = 100;
     // bday.day = 300;  이런식으로 넣을 수 있음
 // 멤버변수의 오류가 객체가 잘못 사용되도록 노출되면서 객체의 역할에 문제가 생길수 있음.

@@ -1,3 +1,5 @@
+package object_static;
+
 //Ch2-19.
 public class CarFactory {
     CarFactory() {
@@ -10,8 +12,8 @@ public class CarFactory {
     }
 
     public Car createCar() {
-        //객체 생성해주는 메소드. 메소드 안에서 new Car 하나가 되서 참조변수가 반환됨.
-        // 반환 타입 Car 가 되고 생성시 CarNum 라는 하나씩 준다.
+        //객체 생성해주는 메소드. 메소드 안에서 new object_static.Car 하나가 되서 참조변수가 반환됨.
+        // 반환 타입 object_static.Car 가 되고 생성시 CarNum 라는 하나씩 준다.
         Car car = new Car();
         return car;
     }

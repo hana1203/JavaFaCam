@@ -1,3 +1,5 @@
+package objectcollaboration;
+
 public class StudentSubject {
     String subjectName;
     int subjectID;

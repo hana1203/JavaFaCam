@@ -1,3 +1,5 @@
+package objectcollaboration;
+
 public class TrBus {
     int busNum;
     int busPassenger;

@@ -1,4 +1,4 @@
-//Ch2-11. Encapsulation 캡슐화
+package objectcollaboration;//Ch2-11. Encapsulation 캡슐화
 //대부분의 멤버변수와 메소드를 감춤
 //클라이언트가 제어할 수 있는 부분이 적음
 //그 객체가 하는 기능이 매번 일관적으로 적용

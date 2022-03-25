@@ -1,3 +1,5 @@
+package objectcollaboration;
+
 public class BirthdayTest {
     public static void main(String[] args) {
         Birthday bday = new Birthday();

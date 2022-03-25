@@ -1,3 +1,5 @@
+package object;
+
 public class Order {
     public long orderN;
     public String phoneN; //정수형으로 표현하면 010 0이 안찍힘

@@ -1,3 +1,5 @@
+package objectcollaboration;
+
 import java.util.function.DoubleToIntFunction;
 
 public class TrTaxi {

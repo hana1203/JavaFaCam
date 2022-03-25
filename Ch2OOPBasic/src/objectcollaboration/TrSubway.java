@@ -1,3 +1,5 @@
+package objectcollaboration;
+
 public class TrSubway {
     String subwayLine;
     int subwayPassenger;
