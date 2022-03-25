@@ -2,7 +2,7 @@ public class Car {
     private static int carNum = 10000;
     private int carSerialNum;
 
-    Car() {
+    public Car() {
         carNum++;
         carSerialNum += carNum;
 //        carSerialNum = carNum; //+빼도 똑같이 작동
