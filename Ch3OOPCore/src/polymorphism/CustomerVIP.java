@@ -1,4 +1,5 @@
 package polymorphism;
+//VIP 고객:  제품 살 때 할인율 10% , 포인트 5% 적립, 담당 상담원 배정
 
 public class CustomerVIP extends Customer {
     private int agentID;

@@ -2,6 +2,7 @@ package polymorphism;
 //상속의 클래스 생성과정
 //하위클래스만 생성해도 어떻게 상위클래스의 멤버변수, 메서드 호출해서 쓸수있는지
 //하위클래스 생성하면 항상 상위클래스가 먼저 생성이된다.
+//일반 고객: 제품 살 때 할인 없음, 포인트 1% 적립
 public class Customer {
 
     protected int customerID;

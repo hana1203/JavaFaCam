@@ -13,21 +13,23 @@ public class CustomerTest {
         Customer taeyeon = new CustomerGold(10003, "Taeyeon");
         Customer selena = new CustomerGold(10004, "Selena");
         Customer ariana = new CustomerVIP(10005, "Ariana");
-
+//        System.out.println(customerList); // 비어있는 [] 출력된다.
         customerList.add(ed);
         customerList.add(taylor);
         customerList.add(taeyeon);
         customerList.add(selena);
         customerList.add(ariana);
+
         System.out.println("===고객정보===");
         for (Customer customer:customerList) {
             System.out.println(customer.showCustomerInfo());
         }
+        System.out.println();
         System.out.println("===할인율과 포인트 계산===");
         int price = 10000;
         for (Customer customer:customerList) {
             int cost = customer.calcPrice(price);
-            System.out.println(customer.customerName+" 님이 " +price + "원 지불했습니다.");
+            System.out.println(customer.customerName+" 님이 " +cost + "원 지불했습니다.");
             System.out.println(customer.customerName+ " 님의 현재 포인트는 "+ customer.point +"점 입니다.");
         }
     }

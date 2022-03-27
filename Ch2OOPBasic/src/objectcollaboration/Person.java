@@ -1,12 +1,13 @@
-package objectcollaboration;// Ch2-11. 객체 자신을 가리키는 this
+package objectcollaboration;
+// Ch2-11. 객체 자신을 가리키는 this
 // 프로그래밍 하다보면 this 를 가끔 사용. c++, java 에 나오는 키워드
 // this 는 인스턴스 자신의 메모리를 가리킨다.
 // 객체를 new 하면 객체가 힙메모리에 생성되는데 이때 주소값 가지는 것이 참조변수. 그 값 자체를 참조값 reference value 라고한다.
 // 변수는 인스턴스의 외부에 해당. 그 변수가 인스턴스를 가리키게됨. 인스턴스 자체 내부에서 자신의 주소값을 갖는게 this.
 // case1.인스턴스 자신의 메모리를 가리킴
 //public static void main(String[] args) {
-//        objectcollaboration.Birthday bday = new objectcollaboration.Birthday();
-//        bday 는 생성된 objectcollaboration.Birthday() 를 가리키는 참조변수
+//        Birthday bday = new Birthday();
+//        bday 는 생성된 Birthday() 를 가리키는 참조변수
 //        bday.setYear(2022);
 //public void setYear(int year) {
 //        this.year = year;
@@ -45,7 +46,7 @@ public class Person {
         System.out.println(name+" is " + age + "years old.");
     }
 
-    public Person getPerson() { //getPerson() 메소드 만들고 반환 타입은 자기자신 objectcollaboration.Person 클래스
+    public Person getPerson() { //getPerson() 메소드 만들고 반환 타입은 자기자신 Person 클래스
         // case3.자기자신의 주소를 반환하는 this
         return this;
     }
