@@ -14,6 +14,21 @@ public class CustomerTest {
         Customer selena = new CustomerGold(10004, "Selena");
         Customer ariana = new CustomerVIP(10005, "Ariana");
 //        System.out.println(customerList); // 비어있는 [] 출력된다.
+
+/*
+        //Ch3-8 다운캐스팅과 instanceof
+        //instanceof 키워드 역할
+        //이 변수가 원래 이 인스턴스의 타입이었냐? 인스턴스의 형 체크
+//        CustomerVIP vc = (CustomerVIP) taeyeon; //컴파일 에러는 안남 인스턴스의 타입까지 알수는없다.
+        //골드인데 vip로 캐스팅했으니 오류
+
+        if (taeyeon instanceof CustomerGold) { //이 인스턴스가 Gold의 인스턴스이냐? 트루인 경우만 변환 하겠다
+            CustomerGold vc = (CustomerGold)taeyeon;
+            System.out.println(taeyeon.showCustomerInfo());
+            //Taeyeon 님의 등급은 GOLD이며, 보유하고 계신 포인트는 0 입니다.
+        }
+ */
+
         customerList.add(ed);
         customerList.add(taylor);
         customerList.add(taeyeon);
