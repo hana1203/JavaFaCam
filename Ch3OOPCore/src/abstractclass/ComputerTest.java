@@ -8,7 +8,12 @@ public class ComputerTest {
     public static void main(String[] args) {
         Desktop desktop = new Desktop();
         Computer desktop1 = new Desktop();
-        desktop.display();
-        desktop1.display();
+        desktop.display(); //Desktop display
+        desktop1.display(); //Desktop display
+//        Laptop laptop = new Laptop(); // Laptop 은 추상메서드라서 인스턴스화 할 수 없다.
+        MyLaptop myLaptop = new MyLaptop();
+        myLaptop.typing(); //MyLaptop typing
+        myLaptop.display(); //Laptop display
+        myLaptop.turnOff(); //전원끄기
     }
 }
