@@ -3,6 +3,7 @@ package interface_dao.userinfo.domain.userinfo.dao.oracle;
 import interface_dao.userinfo.domain.userinfo.UserInfo;
 import interface_dao.userinfo.domain.userinfo.dao.UserInfoDao;
 
+//UserInfoDao 인터페이스 구현한 Oracle 버전의 dao
 public class UserInfoOracleDao implements UserInfoDao {
     @Override
     public void insertUserInfo(UserInfo userinfo) {

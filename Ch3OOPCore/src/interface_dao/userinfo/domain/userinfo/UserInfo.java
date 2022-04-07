@@ -1,4 +1,5 @@
 package interface_dao.userinfo.domain.userinfo;
+//사용자 정보 클래스
 
 public class UserInfo {
     private String userId;
