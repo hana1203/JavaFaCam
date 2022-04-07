@@ -1,6 +1,6 @@
 package interface_dao.userinfo.web;
 
-import interface_dao.userinfo.UserInfo;
+import interface_dao.userinfo.domain.userinfo.UserInfo;
 import interface_dao.userinfo.domain.userinfo.dao.UserInfoDao;
 import interface_dao.userinfo.domain.userinfo.dao.mysql.UserInfoMySqlDao;
 import interface_dao.userinfo.domain.userinfo.dao.oracle.UserInfoOracleDao;
@@ -14,7 +14,7 @@ public class UserInfoClient {
     public static void main(String[] args) throws IOException {
 
         //파일을 읽는다
-        FileInputStream fis = new FileInputStream("../db.properties");
+        FileInputStream fis = new FileInputStream("db.properties");
 
         //쌍으로 되어있는 key value 를 읽을 수 있는 객체
         Properties prop = new Properties();

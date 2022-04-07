@@ -1,6 +1,6 @@
 package interface_dao.userinfo.domain.userinfo.dao;
 
-import interface_dao.userinfo.UserInfo;
+import interface_dao.userinfo.domain.userinfo.UserInfo;
 
 //User 에대한 DB operation 할때 구현해야 되는 기능은 이거이거다 라고 선언
 //선언해놓고 oracle mysql 각 버전에 맞게 구현하면 된다.

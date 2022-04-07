@@ -1,6 +1,6 @@
 package interface_dao.userinfo.domain.userinfo.dao.mysql;
 
-import interface_dao.userinfo.UserInfo;
+import interface_dao.userinfo.domain.userinfo.UserInfo;
 import interface_dao.userinfo.domain.userinfo.dao.UserInfoDao;
 
 public class UserInfoMySqlDao implements UserInfoDao {

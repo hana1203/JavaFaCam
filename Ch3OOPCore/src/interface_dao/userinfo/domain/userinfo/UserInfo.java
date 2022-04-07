@@ -1,4 +1,4 @@
-package interface_dao.userinfo;
+package interface_dao.userinfo.domain.userinfo;
 
 public class UserInfo {
     private String userId;
