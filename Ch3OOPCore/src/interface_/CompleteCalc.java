@@ -1,7 +1,7 @@
 package interface_;
 
 public class CompleteCalc extends Calculator{
-    //아ㄷ까 Calculator 에서 구현하지못한 두개의 메서드 구현해라.
+    //아까 Calculator 에서 구현하지못한 두개의 메서드 구현해라.
     @Override
     public int times(int num1, int num2) {
         return num1*num2;

@@ -34,6 +34,7 @@ public class UserInfoClient {
         //인터페이스 UserInfoDao 를 갖다쓰기
         //어떤 userInfo 를 쓸지 안정해져있으니 처음에는 null 으로 인터페이스 타입 선언.
         UserInfoDao userInfoDao = null;
+        //null 로 선언안해도 잘 작동하는데..? 왜 꼭 null 을 넣어줘야되지?
 
         if (dbType.equals("ORACLE")) {
             userInfoDao = new UserInfoOracleDao();
@@ -45,7 +46,6 @@ public class UserInfoClient {
             System.out.println("db error");
             return;
         }
-
 
         userInfoDao.insertUserInfo(userInfo);
         userInfoDao.updateUserInfo(userInfo);
