@@ -10,11 +10,12 @@ public abstract class PlayerLevel {
 
     //template method
     //run(), count 만큼 jump(), turn()
+
     final public void go(int count) {
         run();
-        for (int i=0; i<count; count++)
+        for (int i=0; i<count; i++) {
             jump();
+        }
         turn();
-
     }
 }

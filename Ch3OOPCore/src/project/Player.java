@@ -7,19 +7,23 @@ public class Player {
 
     public Player() {
         level = new BeginnerLevel();
+        level.showLevelMessage();
     }
 
     public PlayerLevel getLevel() {
         return level;
     }
 
-    public void upgradeLevel(PlayerLevel) {
+    public void upgradeLevel(PlayerLevel level) {
         this.level = level;
         level.showLevelMessage();
     }
 
-    public play() {
-        PlayerLevel
-    }
-
+    public void play(int count) {
+        level.go(count);
+        }
 }
+
+
+
+
