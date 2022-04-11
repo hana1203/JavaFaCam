@@ -1,4 +1,4 @@
-package project;
+package project.templateMethod;
 
 public class BeginnerLevel extends PlayerLevel{
     public void run() {

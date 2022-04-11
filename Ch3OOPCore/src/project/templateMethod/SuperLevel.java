@@ -1,4 +1,4 @@
-package project;
+package project.templateMethod;
 
 public class SuperLevel extends PlayerLevel{
     public void run() {

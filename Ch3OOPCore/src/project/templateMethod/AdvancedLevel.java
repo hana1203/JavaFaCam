@@ -1,4 +1,4 @@
-package project;
+package project.templateMethod;
 
 public class AdvancedLevel extends PlayerLevel{
     public void run() {

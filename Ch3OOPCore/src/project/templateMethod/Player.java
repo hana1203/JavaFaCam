@@ -1,4 +1,4 @@
-package project;
+package project.templateMethod;
 
 public class Player {
     //Player 의 play() 가 불리면 go(int) 호출된다

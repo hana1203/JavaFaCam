@@ -1,4 +1,4 @@
-package project;
+package project.templateMethod;
 //Ch3-16. 복습
 //추상클래스와 템플릿 메서드
 

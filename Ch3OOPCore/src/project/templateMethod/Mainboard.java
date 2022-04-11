@@ -1,4 +1,4 @@
-package project;
+package project.templateMethod;
 
 public class Mainboard {
     public static void main(String[] args) {
